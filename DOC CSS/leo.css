@@ -1,5 +1,96 @@
-.eng{
-background-color: aqua;
-font-family: Arial, Helvetica;
-position: relative;
+.fundo{
+background-color: #5e2f46;
 }
+.eng{
+background-color: #79b5ac;
+position: relative;
+padding: 3pc;
+border-radius: 12px 12px 0px 0px;
+}
+.let{
+    font-family: Arial, Helvetica;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+.op{
+background-color: #c78933; 
+position: relative;
+padding: 12px;  
+}
+.home{
+background-color: #c75233;
+position: relative;
+border-radius: 50pc;
+padding: 10px 20px;
+border: 12px;
+left: 5pc;
+transition: 200ms;
+}
+.per{
+background-color: #c75233;
+position: relative;
+border-radius: 50pc;
+padding: 10px 20px;
+border: 12px;
+left: 40pc;
+transition: 200ms;
+}
+.res{
+background-color: #c75233;
+position: relative;
+border-radius: 50pc;
+padding: 10px 20px;
+border: 12px;
+left: 75pc;
+transition: 200ms;
+}
+.home:hover{
+    background-color: #79b5ac;
+    box-shadow: 5px 5px black;
+    border-radius: 0pc;
+    transform: translateY(-5px);
+    transition: 200ms;
+    }
+    .per:hover{
+        background-color: #79b5ac;
+        box-shadow: 5px 5px black;
+        border-radius: 0pc;
+        transform: translateY(-5px);
+        transition: 200ms;
+        }
+        .res:hover{
+            background-color: #79b5ac;
+            box-shadow: 5px 5px black;
+            border-radius: 0pc;
+            transform: translateY(-5px);
+            transition: 200ms;
+            }
+.esc{
+
+}
+.box{
+transition: 500ms;
+opacity: 0%;
+}
+.box:hover{
+position: relative;
+background-color: black;
+padding: 8px;
+border-radius: 0px 0px 12px 12px;
+transform: translateY(0px);
+transition: 500ms;
+opacity: 100%;
+color: white;
+align-self: center;
+}
+.recep{
+font-size: 12px;
+position: relative;
+justify-self: center; 
+
+}
+
+
+
+
